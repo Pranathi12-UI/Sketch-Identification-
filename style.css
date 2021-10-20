@@ -1,0 +1,31 @@
+body{
+    background-image:url("https://thumbs.dreamstime.com/b/blank-canvas-background-rough-flax-50186520.jpg");
+    background-position: center ;
+    background-size: cover;
+}
+h1{
+    color:#7189FF;
+    background-color: cornsilk;
+}
+#show_sketch{
+    float: right;
+    
+}
+canvas{
+    border: 10px solid #7189FF;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 3s;
+    margin-top: 60px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 2px 2px 40px grey;}
+    to{box-shadow: 30px 30px 100px black;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
